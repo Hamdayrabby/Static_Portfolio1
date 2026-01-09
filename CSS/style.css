@@ -1,8 +1,12 @@
 /* Custom CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
 body,
 html {
     height: 100%;
+    font-family: 'Outfit', sans-serif;
 }
+
 .bg-gradient-primary-to-secondary {
     background: #1e30f3;
     background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
@@ -11,11 +15,14 @@ html {
 .text-gradient {
     background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .rounded-4 {
     border-radius: 1rem !important;
 }
+
 .feature {
     display: inline-flex;
     align-items: center;
@@ -24,8 +31,9 @@ html {
     width: 3rem;
     font-size: 1.5rem;
 }
+
 .profile {
-    background-image:url("../assets/profile-back.svg");
+    background-image: url("../assets/profile-back.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: bottom;
@@ -36,6 +44,7 @@ html {
     max-height: 40rem;
     max-width: 40rem;
 }
+
 .profile .profile-img {
     height: 80vw;
     max-height: 45rem;
@@ -44,44 +53,52 @@ html {
     left: 50%;
     transform: translateX(-50%);
 }
+
 @media (min-width: 576px) {
     .profile {
         height: 60vw;
         width: 60vw;
     }
+
     .profile .profile-img {
         height: 65vw;
     }
 }
+
 @media (min-width: 768px) {
     .profile {
         height: 50vw;
         width: 50vw;
     }
+
     .profile .profile-img {
         height: 55vw;
     }
 }
+
 @media (min-width: 992px) {
     .profile {
         height: 40vw;
         width: 40vw;
     }
+
     .profile .profile-img {
         height: 45vw;
     }
 }
+
 @media (min-width: 1200px) {
     .profile {
         height: 35vw;
         width: 35vw;
     }
+
     .profile .profile-img {
         height: 40vw;
     }
 }
 
-#loading-div{
+#loading-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,11 +113,16 @@ html {
     position: relative;
     border: 3px solid #f3f3f3;
     border-radius: 50%;
-    border-top-color:#1e30f3;
+    border-top-color: #1e30f3;
     animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
