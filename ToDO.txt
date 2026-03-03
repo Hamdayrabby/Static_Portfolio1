@@ -1,7 +1,255 @@
-১) প্রজেক্টের জন্য ইমেজ।
-২) বুটস্ট্রাপ এন্ড বুটস্ট্রাপ আইকন ইন্সটলেশন
-৩) working with হোম পেইজ।  
-৪) working with কন্টাক্ট পেইজ । 
-৫) working with প্রজেক্ট পেইজ। 
-৬) working with রেজুমি পেইজ। 
-৭) working with লোডার পেইজ।  
+
+
+## 🎯 Objective
+
+Refactor my existing portfolio website and resume presentation to **honestly and professionally support** applications for:
+
+* Software Engineer (Entry-Level)
+* MERN Stack Developer
+* ML Intern
+* AI Engineer (Entry-Level / Intern)
+
+Avoid senior-level claims or misleading system design language.
+
+---
+
+## 1️⃣ Global Identity & Positioning
+
+### Primary Title (Hero Headline)
+
+**Software Engineer (Entry-Level) | MERN Stack & Applied Machine Learning**
+
+This title must be used consistently across:
+
+* Homepage hero
+* Resume page headline
+* Metadata / SEO title (if applicable)
+
+### Role Philosophy
+
+Present me as:
+
+* Entry-level engineer
+* Strong in fundamentals
+* Project-driven
+* ML-applied (not research-heavy, not senior)
+
+---
+
+## 2️⃣ Hero Section (Homepage)
+
+### Badge / Small Text
+
+> SOFTWARE ENGINEERING · MERN STACK · MACHINE LEARNING
+
+### Main Headline
+
+> Software Engineer (Entry-Level) | MERN Stack & Applied Machine Learning
+
+### Subheading (Max 2 Lines)
+
+> I build production-ready web applications and apply machine learning to solve real-world problems, with a strong focus on clean architecture, APIs, and practical deployment.
+
+### Call-to-Action Buttons
+
+* Primary: **View Resume**
+* Secondary: **Software Projects**
+* Tertiary: **ML & AI Projects**
+
+---
+
+## 3️⃣ Trust Signal (Below CTA Buttons)
+
+Add one credibility line:
+
+> 🎓 BSc in Computer Science & Engineering · ML Research (Telecom Churn Prediction) · IEEE Symposium Presenter
+
+---
+
+## 4️⃣ Navigation Bar
+
+Use the following structure exactly:
+
+* Home
+* Software Engineering Projects
+* ML & AI Projects
+* Resume
+* Contact
+
+Each item should route or scroll to a clearly separated section.
+
+---
+
+## 5️⃣ “What I Do” Section (Immediately After Hero)
+
+Create **3 cards only**.
+
+### Card 1: Machine Learning & AI
+
+* Predictive modeling and classification
+* Feature engineering and model evaluation
+* Applied, interpretable machine learning
+
+### Card 2: Software Engineering (MERN)
+
+* Full-stack MERN applications
+* REST API design and authentication
+* Modular backend architecture and deployment
+
+### Card 3: Problem Solving & Research
+
+* Algorithms and data structures
+* Research-driven development
+* Real-world problem solving
+
+🚫 Do NOT mention:
+
+* Distributed systems
+* High-scale architecture
+* Enterprise systems
+
+---
+
+## 6️⃣ Projects Section – STRICT SEPARATION
+
+### 🟦 Section A: Software Engineering Projects
+
+Include only MERN / backend / system projects.
+
+For each project card, display:
+
+* Project name
+* Tech stack
+* Key features
+* Live demo link
+* GitHub repository
+
+Allowed wording examples:
+
+* “Designed REST APIs”
+* “Implemented authentication”
+* “Built modular backend”
+* “Deployed full-stack application”
+
+🚫 Avoid:
+
+* “Scalable distributed systems”
+* “High availability architecture”
+
+---
+
+### 🟪 Section B: ML & AI Projects
+
+Include only ML / AI projects.
+
+Each project must include:
+
+* Problem statement
+* Dataset description
+* Models used
+* Evaluation metrics
+* Interpretation of results
+* Deployment (if available)
+
+Main ML project to highlight:
+
+* Telecom Customer Churn Prediction
+
+Allowed wording:
+
+* “Built end-to-end ML pipeline”
+* “Compared multiple classification models”
+* “Focused on model interpretability”
+
+---
+
+## 7️⃣ Resume Page Structure
+
+### Resume Title
+
+> Software Engineer (Entry-Level) | MERN Stack & Applied Machine Learning
+
+### Resume Summary
+
+> Entry-level Software Engineer with hands-on experience in full-stack web development and applied machine learning. Strong foundation in Python, JavaScript, REST APIs, data analysis, and ML model development. Experienced in building real-world projects from data preprocessing to deployment.
+
+---
+
+### Resume Toggle (If Supported)
+
+Add two selectable modes:
+
+* **Software Engineer View**
+* **ML / AI View**
+
+#### Software Engineer View Emphasis:
+
+* MERN projects
+* APIs
+* Authentication
+* Deployment
+
+#### ML / AI View Emphasis:
+
+* ML projects
+* Research / thesis
+* Python, Scikit-learn, TensorFlow
+* Evaluation metrics
+
+If toggle is not possible, keep one resume but visually emphasize sections based on selection.
+
+---
+
+## 8️⃣ Resume Sections (Ordering)
+
+Recommended order:
+
+1. Summary
+2. Technical Skills
+3. Projects (Software + ML separated)
+4. Research / Thesis
+5. Education
+6. Achievements
+
+---
+
+## 9️⃣ About Section (Optional but Recommended)
+
+Use this text:
+
+> I’m a Computer Science graduate who enjoys building production-ready software systems and enhancing them with machine learning when it adds real value. I focus on clean code, clear APIs, and practical deployment rather than overengineering.
+
+---
+
+## 🔟 Footer Content
+
+Add a short availability line above contact info:
+
+> Open to Software Engineer (Entry-Level), MERN Developer, ML Intern, and AI Engineer roles
+
+---
+
+## 1️⃣1️⃣ Design & Language Rules (IMPORTANT)
+
+* Do NOT use “Senior”, “Expert”, or “Architect”
+* Do NOT claim large-scale or enterprise system design
+* Avoid buzzwords
+* Prioritize clarity and honesty
+* Hero content must be scannable in under 5 seconds
+* Maintain current visual style unless structural change is required
+
+---
+
+## ✅ Final Expected Outcome
+
+* One portfolio
+* Two clear career tracks
+* Honest, recruiter-trusted positioning
+* Suitable for internships and junior roles
+* No overclaiming, no underselling
+
+---
+
+### END OF PROMPT
+
+
